@@ -10,18 +10,24 @@
 		8F7B7E03186EE066008DB3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E02186EE066008DB3EA /* Foundation.framework */; };
 		8F7B7E05186EE066008DB3EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E04186EE066008DB3EA /* CoreGraphics.framework */; };
 		8F7B7E07186EE066008DB3EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E06186EE066008DB3EA /* UIKit.framework */; };
-		8F7B7E0D186EE066008DB3EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E0B186EE066008DB3EA /* InfoPlist.strings */; };
-		8F7B7E0F186EE066008DB3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E0E186EE066008DB3EA /* main.m */; };
-		8F7B7E13186EE066008DB3EA /* NGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E12186EE066008DB3EA /* NGBAppDelegate.m */; };
-		8F7B7E16186EE066008DB3EA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E14186EE066008DB3EA /* Main_iPhone.storyboard */; };
-		8F7B7E19186EE066008DB3EA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E17186EE066008DB3EA /* Main_iPad.storyboard */; };
-		8F7B7E1C186EE066008DB3EA /* NGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E1B186EE066008DB3EA /* NGBViewController.m */; };
-		8F7B7E1E186EE066008DB3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E1D186EE066008DB3EA /* Images.xcassets */; };
 		8F7B7E25186EE066008DB3EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E24186EE066008DB3EA /* XCTest.framework */; };
 		8F7B7E26186EE066008DB3EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E02186EE066008DB3EA /* Foundation.framework */; };
 		8F7B7E27186EE066008DB3EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7B7E06186EE066008DB3EA /* UIKit.framework */; };
 		8F7B7E2F186EE066008DB3EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E2D186EE066008DB3EA /* InfoPlist.strings */; };
-		8F7B7E31186EE066008DB3EA /* AccountStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E30186EE066008DB3EA /* AccountStoreTests.m */; };
+		8F7B7E4B186EE0AA008DB3EA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E3E186EE0AA008DB3EA /* Main_iPad.storyboard */; };
+		8F7B7E4C186EE0AA008DB3EA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E40186EE0AA008DB3EA /* Main_iPhone.storyboard */; };
+		8F7B7E4D186EE0AA008DB3EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E42186EE0AA008DB3EA /* InfoPlist.strings */; };
+		8F7B7E4E186EE0AA008DB3EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7B7E44186EE0AA008DB3EA /* Images.xcassets */; };
+		8F7B7E4F186EE0AA008DB3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E45186EE0AA008DB3EA /* main.m */; };
+		8F7B7E50186EE0AA008DB3EA /* NGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E47186EE0AA008DB3EA /* NGBAppDelegate.m */; };
+		8F7B7E51186EE0AA008DB3EA /* NGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E49186EE0AA008DB3EA /* NGBViewController.m */; };
+		8F7B7E54186EE0DF008DB3EA /* NGBAccountStoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E52186EE0DF008DB3EA /* NGBAccountStoreTest.m */; };
+		8F7B7E55186EE0DF008DB3EA /* NGBAccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E53186EE0DF008DB3EA /* NGBAccountTest.m */; };
+		8F7B7E5A186EE0F1008DB3EA /* NGBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E57186EE0F1008DB3EA /* NGBAccount.m */; };
+		8F7B7E5B186EE0F1008DB3EA /* NGBAccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E59186EE0F1008DB3EA /* NGBAccountStore.m */; };
+		8FDD5E7A186F263C008DEC6E /* NGBAccountEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD5E79186F263C008DEC6E /* NGBAccountEditViewController.m */; };
+		8FDD5E7C186F2A60008DEC6E /* NGBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E57186EE0F1008DB3EA /* NGBAccount.m */; };
+		8FDD5E7D186F2A65008DEC6E /* NGBAccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B7E59186EE0F1008DB3EA /* NGBAccountStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +45,30 @@
 		8F7B7E02186EE066008DB3EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8F7B7E04186EE066008DB3EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8F7B7E06186EE066008DB3EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8F7B7E0A186EE066008DB3EA /* AccountStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccountStore-Info.plist"; sourceTree = "<group>"; };
-		8F7B7E0C186EE066008DB3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8F7B7E0E186EE066008DB3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F7B7E10186EE066008DB3EA /* AccountStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccountStore-Prefix.pch"; sourceTree = "<group>"; };
-		8F7B7E11186EE066008DB3EA /* NGBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGBAppDelegate.h; sourceTree = "<group>"; };
-		8F7B7E12186EE066008DB3EA /* NGBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGBAppDelegate.m; sourceTree = "<group>"; };
-		8F7B7E15186EE066008DB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8F7B7E18186EE066008DB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8F7B7E1A186EE066008DB3EA /* NGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGBViewController.h; sourceTree = "<group>"; };
-		8F7B7E1B186EE066008DB3EA /* NGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGBViewController.m; sourceTree = "<group>"; };
-		8F7B7E1D186EE066008DB3EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F7B7E23186EE066008DB3EA /* AccountStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7B7E24186EE066008DB3EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F7B7E2C186EE066008DB3EA /* AccountStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccountStoreTests-Info.plist"; sourceTree = "<group>"; };
 		8F7B7E2E186EE066008DB3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8F7B7E30186EE066008DB3EA /* AccountStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountStoreTests.m; sourceTree = "<group>"; };
+		8F7B7E3C186EE0AA008DB3EA /* AccountStore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AccountStore-Info.plist"; sourceTree = "<group>"; };
+		8F7B7E3D186EE0AA008DB3EA /* AccountStore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountStore-Prefix.pch"; sourceTree = "<group>"; };
+		8F7B7E3F186EE0AA008DB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8F7B7E41186EE0AA008DB3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8F7B7E43186EE0AA008DB3EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F7B7E44186EE0AA008DB3EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F7B7E45186EE0AA008DB3EA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7B7E46186EE0AA008DB3EA /* NGBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBAppDelegate.h; sourceTree = "<group>"; };
+		8F7B7E47186EE0AA008DB3EA /* NGBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBAppDelegate.m; sourceTree = "<group>"; };
+		8F7B7E48186EE0AA008DB3EA /* NGBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBViewController.h; sourceTree = "<group>"; };
+		8F7B7E49186EE0AA008DB3EA /* NGBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBViewController.m; sourceTree = "<group>"; };
+		8F7B7E52186EE0DF008DB3EA /* NGBAccountStoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBAccountStoreTest.m; sourceTree = "<group>"; };
+		8F7B7E53186EE0DF008DB3EA /* NGBAccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBAccountTest.m; sourceTree = "<group>"; };
+		8F7B7E56186EE0F1008DB3EA /* NGBAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGBAccount.h; path = AccountStore/NGBAccount.h; sourceTree = "<group>"; };
+		8F7B7E57186EE0F1008DB3EA /* NGBAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGBAccount.m; path = AccountStore/NGBAccount.m; sourceTree = "<group>"; };
+		8F7B7E58186EE0F1008DB3EA /* NGBAccountStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGBAccountStore.h; path = AccountStore/NGBAccountStore.h; sourceTree = "<group>"; };
+		8F7B7E59186EE0F1008DB3EA /* NGBAccountStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGBAccountStore.m; path = AccountStore/NGBAccountStore.m; sourceTree = "<group>"; };
+		8FDD5E77186EE662008DEC6E /* NGBManagedAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGBManagedAccount.h; path = AccountStore/NGBManagedAccount.h; sourceTree = "<group>"; };
+		8FDD5E78186F263C008DEC6E /* NGBAccountEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBAccountEditViewController.h; sourceTree = "<group>"; };
+		8FDD5E79186F263C008DEC6E /* NGBAccountEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBAccountEditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +98,8 @@
 		8F7B7DF6186EE066008DB3EA = {
 			isa = PBXGroup;
 			children = (
-				8F7B7E08186EE066008DB3EA /* AccountStore */,
+				8F7B7E3A186EE084008DB3EA /* AccountStore */,
+				8F7B7E3B186EE0AA008DB3EA /* AccountStoreExample */,
 				8F7B7E2A186EE066008DB3EA /* AccountStoreTests */,
 				8F7B7E01186EE066008DB3EA /* Frameworks */,
 				8F7B7E00186EE066008DB3EA /* Products */,
@@ -111,36 +126,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8F7B7E08186EE066008DB3EA /* AccountStore */ = {
-			isa = PBXGroup;
-			children = (
-				8F7B7E11186EE066008DB3EA /* NGBAppDelegate.h */,
-				8F7B7E12186EE066008DB3EA /* NGBAppDelegate.m */,
-				8F7B7E14186EE066008DB3EA /* Main_iPhone.storyboard */,
-				8F7B7E17186EE066008DB3EA /* Main_iPad.storyboard */,
-				8F7B7E1A186EE066008DB3EA /* NGBViewController.h */,
-				8F7B7E1B186EE066008DB3EA /* NGBViewController.m */,
-				8F7B7E1D186EE066008DB3EA /* Images.xcassets */,
-				8F7B7E09186EE066008DB3EA /* Supporting Files */,
-			);
-			path = AccountStore;
-			sourceTree = "<group>";
-		};
-		8F7B7E09186EE066008DB3EA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8F7B7E0A186EE066008DB3EA /* AccountStore-Info.plist */,
-				8F7B7E0B186EE066008DB3EA /* InfoPlist.strings */,
-				8F7B7E0E186EE066008DB3EA /* main.m */,
-				8F7B7E10186EE066008DB3EA /* AccountStore-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		8F7B7E2A186EE066008DB3EA /* AccountStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F7B7E30186EE066008DB3EA /* AccountStoreTests.m */,
+				8F7B7E52186EE0DF008DB3EA /* NGBAccountStoreTest.m */,
+				8F7B7E53186EE0DF008DB3EA /* NGBAccountTest.m */,
 				8F7B7E2B186EE066008DB3EA /* Supporting Files */,
 			);
 			path = AccountStoreTests;
@@ -151,6 +141,46 @@
 			children = (
 				8F7B7E2C186EE066008DB3EA /* AccountStoreTests-Info.plist */,
 				8F7B7E2D186EE066008DB3EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F7B7E3A186EE084008DB3EA /* AccountStore */ = {
+			isa = PBXGroup;
+			children = (
+				8FDD5E77186EE662008DEC6E /* NGBManagedAccount.h */,
+				8F7B7E56186EE0F1008DB3EA /* NGBAccount.h */,
+				8F7B7E57186EE0F1008DB3EA /* NGBAccount.m */,
+				8F7B7E58186EE0F1008DB3EA /* NGBAccountStore.h */,
+				8F7B7E59186EE0F1008DB3EA /* NGBAccountStore.m */,
+			);
+			name = AccountStore;
+			sourceTree = "<group>";
+		};
+		8F7B7E3B186EE0AA008DB3EA /* AccountStoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B7E3E186EE0AA008DB3EA /* Main_iPad.storyboard */,
+				8F7B7E40186EE0AA008DB3EA /* Main_iPhone.storyboard */,
+				8F7B7E48186EE0AA008DB3EA /* NGBViewController.h */,
+				8F7B7E49186EE0AA008DB3EA /* NGBViewController.m */,
+				8FDD5E78186F263C008DEC6E /* NGBAccountEditViewController.h */,
+				8FDD5E79186F263C008DEC6E /* NGBAccountEditViewController.m */,
+				8FDD5E7B186F2951008DEC6E /* Supporting Files */,
+			);
+			path = AccountStoreExample;
+			sourceTree = "<group>";
+		};
+		8FDD5E7B186F2951008DEC6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F7B7E3C186EE0AA008DB3EA /* AccountStore-Info.plist */,
+				8F7B7E3D186EE0AA008DB3EA /* AccountStore-Prefix.pch */,
+				8F7B7E42186EE0AA008DB3EA /* InfoPlist.strings */,
+				8F7B7E44186EE0AA008DB3EA /* Images.xcassets */,
+				8F7B7E45186EE0AA008DB3EA /* main.m */,
+				8F7B7E46186EE0AA008DB3EA /* NGBAppDelegate.h */,
+				8F7B7E47186EE0AA008DB3EA /* NGBAppDelegate.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,10 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7B7E19186EE066008DB3EA /* Main_iPad.storyboard in Resources */,
-				8F7B7E1E186EE066008DB3EA /* Images.xcassets in Resources */,
-				8F7B7E16186EE066008DB3EA /* Main_iPhone.storyboard in Resources */,
-				8F7B7E0D186EE066008DB3EA /* InfoPlist.strings in Resources */,
+				8F7B7E4E186EE0AA008DB3EA /* Images.xcassets in Resources */,
+				8F7B7E4D186EE0AA008DB3EA /* InfoPlist.strings in Resources */,
+				8F7B7E4B186EE0AA008DB3EA /* Main_iPad.storyboard in Resources */,
+				8F7B7E4C186EE0AA008DB3EA /* Main_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7B7E13186EE066008DB3EA /* NGBAppDelegate.m in Sources */,
-				8F7B7E0F186EE066008DB3EA /* main.m in Sources */,
-				8F7B7E1C186EE066008DB3EA /* NGBViewController.m in Sources */,
+				8F7B7E50186EE0AA008DB3EA /* NGBAppDelegate.m in Sources */,
+				8FDD5E7D186F2A65008DEC6E /* NGBAccountStore.m in Sources */,
+				8FDD5E7C186F2A60008DEC6E /* NGBAccount.m in Sources */,
+				8F7B7E4F186EE0AA008DB3EA /* main.m in Sources */,
+				8FDD5E7A186F263C008DEC6E /* NGBAccountEditViewController.m in Sources */,
+				8F7B7E51186EE0AA008DB3EA /* NGBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7B7E31186EE066008DB3EA /* AccountStoreTests.m in Sources */,
+				8F7B7E5A186EE0F1008DB3EA /* NGBAccount.m in Sources */,
+				8F7B7E5B186EE0F1008DB3EA /* NGBAccountStore.m in Sources */,
+				8F7B7E54186EE0DF008DB3EA /* NGBAccountStoreTest.m in Sources */,
+				8F7B7E55186EE0DF008DB3EA /* NGBAccountTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,34 +315,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F7B7E0B186EE066008DB3EA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7B7E0C186EE066008DB3EA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8F7B7E14186EE066008DB3EA /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7B7E15186EE066008DB3EA /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8F7B7E17186EE066008DB3EA /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F7B7E18186EE066008DB3EA /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		8F7B7E2D186EE066008DB3EA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8F7B7E2E186EE066008DB3EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F7B7E3E186EE0AA008DB3EA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7B7E3F186EE0AA008DB3EA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8F7B7E40186EE0AA008DB3EA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7B7E41186EE0AA008DB3EA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8F7B7E42186EE0AA008DB3EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7B7E43186EE0AA008DB3EA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -394,8 +430,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AccountStore/AccountStore-Prefix.pch";
-				INFOPLIST_FILE = "AccountStore/AccountStore-Info.plist";
+				GCC_PREFIX_HEADER = "AccountStoreExample/AccountStore-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AccountStoreExample/AccountStore-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,8 +443,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AccountStore/AccountStore-Prefix.pch";
-				INFOPLIST_FILE = "AccountStore/AccountStore-Info.plist";
+				GCC_PREFIX_HEADER = "AccountStoreExample/AccountStore-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/AccountStoreExample/AccountStore-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,7 +461,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AccountStore/AccountStore-Prefix.pch";
+				GCC_PREFIX_HEADER = "AccountStoreExample/AccountStore-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -448,7 +484,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AccountStore/AccountStore-Prefix.pch";
+				GCC_PREFIX_HEADER = "AccountStoreExample/AccountStore-Prefix.pch";
 				INFOPLIST_FILE = "AccountStoreTests/AccountStoreTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -475,6 +511,7 @@
 				8F7B7E36186EE066008DB3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F7B7E37186EE066008DB3EA /* Build configuration list for PBXNativeTarget "AccountStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +520,7 @@
 				8F7B7E39186EE066008DB3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
