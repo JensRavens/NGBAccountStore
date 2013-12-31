@@ -23,7 +23,6 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = 'AccountStore'
-  s.public_header_files = 'AccountStore/*.h'
 
   s.requires_arc = true
 
