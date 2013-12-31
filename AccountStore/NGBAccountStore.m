@@ -169,7 +169,8 @@ NSString* const NGBAccountStoreDidChangeAccountsNotification = @"PRAAccountsStor
     
     NSMutableDictionary* updates = @{
                                      (__bridge id)kSecAttrDescription: accountDataString,
-                                     (__bridge id)kSecAttrService: SERVICE_NAME
+                                     (__bridge id)kSecAttrService: SERVICE_NAME,
+                                     (__bridge id)kSecAttrSynchronizable: @([account isSynchronizable])
                                      }.mutableCopy;
     
     if (secret) {
