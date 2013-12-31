@@ -36,7 +36,7 @@ Password saving is decoupled from the account object as the password should not 
 NSArray* accounts = [NGBAccountStore defaultStore].accounts;
 ```
 
-### create a new account
+### Create a new account
 
 ```objective-c
 
@@ -44,10 +44,10 @@ NGBAccount* account = [[NGBAccount alloc] init];
 account.identifier = @"thisismyid";
 account.username = "John Doe";
 [[NGBAccountStore defaultStore] addAccount: account];
-[[NGBAccountStore defaultStore] setPassword:'secret!' forAccount:account];
+[[NGBAccountStore defaultStore] setPassword:@"secret!"" forAccount:account];
 ```
 
-### read the password from an account:
+### Read the password from an account:
 
 ```objective-c
 
