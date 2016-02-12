@@ -8,7 +8,7 @@ NGBAccountStore works only on iOS7 as it uses the built in base64 decoder. But I
 
 ## Adding NGBAccountStore to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add NGBAccountStore to your project.
 
